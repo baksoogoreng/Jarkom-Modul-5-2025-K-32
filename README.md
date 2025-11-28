@@ -27,7 +27,7 @@
 
 ### B. VLSM & Pohon Subnet
 
-[Dokum_Pohon]
+![Assets/pohon](Assets/PohonSubnet.png)
 
 |Subnet|Prefix|Network ID|Range IP|Broadcast|Netmask|
 |---|---|---|---|---|---|

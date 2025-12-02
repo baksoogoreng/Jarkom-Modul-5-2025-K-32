@@ -5,7 +5,7 @@
 | Tasya Aulia Darmawan | 5027241009|
 | Ahmad Rafi F D | 5027241068|
 
-[Dokum Topo]
+![Assets/Topo](Assets/Topo.png)
 
 ### A. Subnet
 |Subnet|Jumlah IP|Netmask|

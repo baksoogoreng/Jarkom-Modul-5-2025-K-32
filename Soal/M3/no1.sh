@@ -1,4 +1,8 @@
 in Wilderland:
+# Hapus semua aturan di tabel NAT (Menghilangkan DNAT/SNAT Misi 2)
+iptables -t nat -F
+# Hapus semua aturan di tabel FILTER (Menghilangkan aturan blokir nomer 8)
+
 # 1. Blokir paket YANG KELUAR DARI Khamul (Source = Subnet Khamul)
 # Gunakan -I FORWARD 1 agar aturan ini ditaruh paling atas (Prioritas Tertinggi)
 iptables -I FORWARD 1 -s 192.227.0.40/29 -j DROP

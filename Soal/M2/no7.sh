@@ -17,3 +17,6 @@ ab -n 100 -c 10 http://192.227.0.30/
 # Cara Baca Output: Cari baris "Failed requests".
 #  Jika angkanya > 0 (misal 50-90), berarti BERHASIL (Firewall menolak kelebihan koneksi).
 #  Jika 0, berarti gagal (semua lolos).
+
+# Kirim 10 permintaan sekaligus ke IronHills
+for i in {1..10}; do curl -I -s --connect-timeout 2 192.227.0.30 | grep "HTTP" & done

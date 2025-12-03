@@ -1,6 +1,6 @@
 in IronHills:
 # Set waktu ke hari Rabu (Wednesday)
-go to windows settings, change the day to 29/11/2023.
+go to windows settings, change thes day to 29/11/2023.
 
 # Verifikasi
 date
